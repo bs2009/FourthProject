@@ -277,7 +277,7 @@ class PhotoViewController: UIViewController, UICollectionViewDataSource, UIColle
     func updateBarButton() {
         
         if selectedIndexes.count > 0 {
-            newCollectionBtn.title = "Save Collection"
+            newCollectionBtn.title = "Save Updated Collection"
         } else {
             newCollectionBtn.title = "New Collection"
         }
