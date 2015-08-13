@@ -13,7 +13,6 @@ class FlickrDB : NSObject  {
     typealias CompletionHandler = (result: AnyObject!, error: NSError?) -> Void
     
     var session: NSURLSession
-    var config = Config.unarchivedInstance() ?? Config()
     
     override init() {
         session = NSURLSession.sharedSession()
